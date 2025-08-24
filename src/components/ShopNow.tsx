@@ -17,11 +17,11 @@ export default function ShopNow() {
         {/* Text & Button Section */}
         <div className="w-full md:w-1/2 p-6 md:p-10 flex flex-col justify-center items-center md:items-start text-center md:text-left">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3">
-            Shop Fresh Foodstuff Online 🛒
+            Shop Fresh Foodstuff, Electronics, Fashion Items Online 🛒
           </h2>
           <p className="text-gray-600 mb-6 text-sm md:text-base">
-            Get affordable and quality food items delivered fast to your
-            doorstep. Powered by{" "}
+            Get affordable and quality items delivered fast to your doorstep.
+            Powered by{" "}
             <span className="font-semibold text-green-600">TasknCart</span>.
           </p>
 
