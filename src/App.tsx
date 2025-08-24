@@ -1,12 +1,13 @@
+import { Outlet } from "react-router-dom";
+import Nav from "./components/Nav";
+import ShopNow from "./components/ShopNow";
 
-import { Outlet } from 'react-router-dom';
-import Nav from './components/Nav';
-
-export default function App(){
+export default function App() {
   return (
     <div>
       <Nav />
       <Outlet />
+      <ShopNow />
     </div>
-  )
+  );
 }
