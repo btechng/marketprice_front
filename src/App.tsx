@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Nav from "./components/Nav";
 import ShopNow from "./components/ShopNow";
+import SkillLinkCard from "./components/SkillLinkCard";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Nav />
       <Outlet />
       <ShopNow />
+      <SkillLinkCard />
     </div>
   );
 }
